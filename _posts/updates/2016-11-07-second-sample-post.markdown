@@ -2,6 +2,8 @@
 layout: article
 title:  "Some news about our company"
 date:   2016-11-07 12:01:15 +0800
+day-month: 07 November
+year: 2017
 categories: updates
 meta: meta2
 author: Author2

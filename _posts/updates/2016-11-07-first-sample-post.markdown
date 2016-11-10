@@ -2,6 +2,8 @@
 layout: article
 title:  "HOW TO MAKE A WEBSITE"
 date:   2016-11-07 12:01:15 +0800
+day-month: 07 November
+year: 2017
 categories: updates
 meta: meta1
 author: Author1

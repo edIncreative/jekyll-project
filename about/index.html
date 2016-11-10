@@ -21,10 +21,10 @@ layout: about
                             <div class="col-sm-6">
                                 <div id="port_slider" class="flexslider oi_vc_gal">
                                     <ul class="slides">
-                                        <li><img src="{{site.url}}/images/corazon2.jpg" draggable="false"></li>
-                                        <li><img src="{{site.url}}/images/corazon3.jpg" draggable="false"></li>
-                                        <li><img src="{{site.url}}/images/corazon4.jpg" draggable="false"></li>
-                                        <li><img src="{{site.url}}/images/corazon5.jpg" draggable="false"></li>
+                                        <li><img src="{{site.baseurl}}/images/corazon2.jpg" draggable="false"></li>
+                                        <li><img src="{{site.baseurl}}/images/corazon3.jpg" draggable="false"></li>
+                                        <li><img src="{{site.baseurl}}/images/corazon4.jpg" draggable="false"></li>
+                                        <li><img src="{{site.baseurl}}/images/corazon5.jpg" draggable="false"></li>
                                     </ul>
                                 </div>
                             </div>
@@ -191,7 +191,7 @@ layout: about
                         <div class="row row-fluid">
                           {% for client in site.data.ourclient %}
                             <div class="col-sm-2">
-                                 <img src="{{site.url}}/images/{{ client.image }}" class=" vc_box_border_grey attachment-full" alt="logo1">
+                                 <img src="{{site.baseurl}}/images/{{ client.image }}" class=" vc_box_border_grey attachment-full" alt="logo1">
                             </div>
                            {% endfor %} 
                         </div>

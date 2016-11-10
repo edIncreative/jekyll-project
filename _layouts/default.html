@@ -1,24 +1,35 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-<head>
-	<meta charset="utf-8">	
-	<title>This a sample jekyll</title>
-</head>
-<body>
-
-<header>
-	<h1> Sample Jekyll</h1>
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">HOME</a></li>
-			<li><a href="{{site.baseurl}}/news.html">NEWS</a></li>
-		</ul>
-	</nav>
-</header>
-
-
-{{content}}
-
-
-</body>
+<!-- 
+Template Name: NEWERA - Smart Portfolio and Business HTML Template with Twitter Bootstrap 3.3.2
+Version: 1.0.0
+Author: FoxSash
+Website: http://www.foxsash.com/
+Contact: foxsash82@gmail.com
+Follow: https://twitter.com/FoxSash_RU
+Purchase: 
+http://themeforest.net/user/FoxSash/portfolio?ref=FoxSash
+http://codecanyon.net/user/FoxSash/portfolio?ref=FoxSash
+License: You must have a valid license purchased only from themeforest(the above link) in order to legally use the theme for your project.
+-->
+<html lang="en-US">
+{%  include head.html %}
+<body class="home page">
+	<!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <img class="blink" src="/../assets/images/ne-logo.png" alt="">
+        </div>
+    </div>
+    <!-- Preloader -->  
+    <div class="wide_cont">
+    	<!-- Header Menu Area -->
+        	{%  include nav.html %}
+        <!-- Header Menu Area -->
+        <!-- Content Area -->
+        	{{content}}
+        <!-- Content Area -->
+      	<!-- Footer Area -->
+       		{%  include foot.html %}	
+    <!-- Footer Area -->
+    </body>
 </html>

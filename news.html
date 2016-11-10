@@ -1,4 +1,275 @@
 ---
-layout: default
+layout: news
 ---
-<h1>News</h1>
+ <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-8">
+                   
+
+                    {% for news in site.posts %}
+                    <div class=" post type-post status-publish format-image has-post-thumbnail hentry category-all-posts category-lessons category-web-design row oi_post">
+                        <div class="col-md-12">
+                            <div class="blog_item">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="oi_full_blog_post_date">
+                                            <div class="oi_date_d colored">
+                                                18 June
+                                            </div>
+                                            <div class="oi_date_y">
+                                                 2014
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-10 col-sm-10">
+                                        <div class="oi_blog_item_holder">
+                                            <div class="oi_blog_full_content_holder">
+                                                <div class="oi_blog_head">
+                                                    <h3 class="oi_blog_post_title"><a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a></h3>
+                                                    <div class="oi_blog_meta">
+                                                         By <a href="#" title="Posts by OrangeIdea" rel="author">{{news.author}}</a>,&nbsp;&nbsp; {{news.categories}},&nbsp;&nbsp; <a href="another-post-just-for-demo.html#comments">0 Comments</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="oi_post_format_content">
+                                                <div class="oi_with_mask_no_url">
+                                                    <a rel="prettyPhoto" class="oi_pretty_image_link" title="ANOTHER POST JUST FOR DEMO" href="images/8-1024x576.gif">
+                                                    <div class="oi_pretty_image_link_plus">
+                                                    </div>
+                                                    </a>
+                                                    <img src="http://placehold.it/1024x576" alt="ANOTHER POST JUST FOR DEMO">
+                                                </div>
+                                            </div>
+                                            <div class="oi_blog_item_content">
+                                                <div class="oi_blog_item_main_content">
+                                                    <p>
+                                                       {{news.excerpt}}
+                                                    </p>
+                                                    <div class="oi_read_more">
+                                                        <a class="oi_readmore_btn colored" href="{{site.baseurl}}{{news.url}}"> Read More</a>
+                                                    </div>
+                                                    <p>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   	{% endfor %}
+                    <hr class="notopmargin">
+                    <div class="pride_pg">
+                    </div>
+                </div>
+                <!--/Page contetn-->
+                <!--Sidebar-->
+                <div class="col-md-4 col-sm-4 oi_right_sidebar">
+                    <div class="myrs">
+                        <div class="oi_widget">
+                            <h6 class="io_widget_title">Calendar</h6>
+                            <div id="calendar_wrap">
+                                <table id="wp-calendar">
+                                <caption>March 2015</caption>
+                                <thead>
+                                <tr>
+                                    <th scope="col" title="Monday">
+                                        M
+                                    </th>
+                                    <th scope="col" title="Tuesday">
+                                        T
+                                    </th>
+                                    <th scope="col" title="Wednesday">
+                                        W
+                                    </th>
+                                    <th scope="col" title="Thursday">
+                                        T
+                                    </th>
+                                    <th scope="col" title="Friday">
+                                        F
+                                    </th>
+                                    <th scope="col" title="Saturday">
+                                        S
+                                    </th>
+                                    <th scope="col" title="Sunday">
+                                        S
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tfoot>
+                                <tr>
+                                    <td colspan="3" id="prev">
+                                        <a href="#">« Jun</a>
+                                    </td>
+                                    <td class="pad">&nbsp;
+                                        
+                                    </td>
+                                    <td colspan="3" id="next" class="pad">&nbsp;
+                                        
+                                    </td>
+                                </tr>
+                                </tfoot>
+                                <tbody>
+                                <tr>
+                                    <td colspan="6" class="pad">&nbsp;
+                                        
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        3
+                                    </td>
+                                    <td>
+                                        4
+                                    </td>
+                                    <td>
+                                        5
+                                    </td>
+                                    <td>
+                                        6
+                                    </td>
+                                    <td>
+                                        7
+                                    </td>
+                                    <td>
+                                        8
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        9
+                                    </td>
+                                    <td>
+                                        10
+                                    </td>
+                                    <td>
+                                        11
+                                    </td>
+                                    <td>
+                                        12
+                                    </td>
+                                    <td>
+                                        13
+                                    </td>
+                                    <td>
+                                        14
+                                    </td>
+                                    <td>
+                                        15
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="today">
+                                        16
+                                    </td>
+                                    <td>
+                                        17
+                                    </td>
+                                    <td>
+                                        18
+                                    </td>
+                                    <td>
+                                        19
+                                    </td>
+                                    <td>
+                                        20
+                                    </td>
+                                    <td>
+                                        21
+                                    </td>
+                                    <td>
+                                        22
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        23
+                                    </td>
+                                    <td>
+                                        24
+                                    </td>
+                                    <td>
+                                        25
+                                    </td>
+                                    <td>
+                                        26
+                                    </td>
+                                    <td>
+                                        27
+                                    </td>
+                                    <td>
+                                        28
+                                    </td>
+                                    <td>
+                                        29
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        30
+                                    </td>
+                                    <td>
+                                        31
+                                    </td>
+                                    <td class="pad" colspan="5">&nbsp;
+                                        
+                                    </td>
+                                </tr>
+                                </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="oi_widget">
+                            <h6 class="io_widget_title">Categories</h6>
+                            <ul>
+                                <li><a href="#">All Posts</a></li>
+                                <li><a href="#">Lessons</a></li>
+                                <li><a href="#">Uncategorized</a></li>
+                                <li><a href="#">Web Design</a></li>
+                            </ul>
+                        </div>
+                        <div class="oi_widget">
+                            <h6 class="io_widget_title">Flickr</h6>
+                            <div id="cbox"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="oi_widget">
+                            <h6 class="io_widget_title">Twitter Widget</h6>
+                            <div class="oi_tweet">
+                                <div class="oi_tweet_content">
+                                    A huge collection of <a href="https://twitter.com/search?q=CSS" title="Search #CSS" target="_blank">#CSS</a> web animation tools, techniques and resources <a href="http://t.co/cE8z9qHq0u" title="http://t.co/cE8z9qHq0u" target="_blank">http://t.co/cE8z9qHq0u</a><a href="http://t.co/fvYkgOosAN" title="http://t.co/fvYkgOosAN" target="_blank">http://t.co/fvYkgOosAN</a>
+                                </div>
+                                <div class="oi_tweet_time">
+                                    <a class="twitter_time" target="_blank" href="http://twitter.com/Orange_Idea_RU/statuses/577423313649201153">32 minutes ago</a>
+                                </div>
+                            </div>
+                            <div class="oi_tweet">
+                                <div class="oi_tweet_content">
+                                    <a href="http://twitter.com/leondoyle" title="Follow leondoyle" target="_blank">@leondoyle</a> Hey Leon! My email address is josh.janssen<a href="http://twitter.com/envato" title="Follow envato" target="_blank">@envato</a>.com Thanks!
+                                </div>
+                                <div class="oi_tweet_time">
+                                    <a class="twitter_time" target="_blank" href="http://twitter.com/Orange_Idea_RU/statuses/577313780687761409">7 hours ago</a>
+                                </div>
+                            </div>
+                            <div class="oi_tweet">
+                                <div class="oi_tweet_content">
+                                    RT <a href="http://twitter.com/soulpancake" title="Follow soulpancake" target="_blank">@soulpancake</a>: Got to talk to some cool people from <a href="http://twitter.com/envato" title="Follow envato" target="_blank">@envato</a> the past couple weeks for their new <a href="https://twitter.com/search?q=MadeBySeries" title="Search #MadeBySeries" target="_blank">#MadeBySeries</a>! <a href="http://t.co/6BG1FGX1QQ" title="http://t.co/6BG1FGX1QQ" target="_blank">http://t.co/6BG1FGX1QQ</a>
+                                </div>
+                                <div class="oi_tweet_time">
+                                    <a class="twitter_time" target="_blank" href="http://twitter.com/Orange_Idea_RU/statuses/577313556648980481">7 hours ago</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/Sidebar-->
+            </div>
+        </div>       
+

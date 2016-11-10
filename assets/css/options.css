@@ -1,0 +1,83 @@
+
+/* 
+*	=================================================================================================================================================
+*	GENERATED CSS FILE
+*	=================================================================================================================================================
+*/
+
+
+
+h1, h2, h3, h4, h5, h6:not(.oi_blog_legend_descr) {
+	font-family: 'Open Sans' !important;
+	
+}
+
+
+.btn:hover { background:#ff3b2f}
+.oi_menu_content_holder > ul > li > a:hover {color:#ff3b2f}
+h5.oi_port_date {color:#ff3b2f}
+.oi_readmore_btn {color:#ff3b2f}
+.colored { color:#ff3b2f}
+.oi_blog_meta a:hover {color:#ff3b2f}
+.oi_menu_content_holder > ul > li.current-menu-item > a, .oi_menu_content_holder > ul > li.current-menu-parent > a{ color:#ff3b2f !important; }
+.header_menu > li:hover > a {background:#ff3b2f;}
+.header_menu > li:hover > .my_drop .current-menu-item a {color:#ff3b2f!important;}
+.header_menu > li.current-menu-ancestor > a {color:#ff3b2f!important;}
+.oi_tabs li.active a, .oi_tabs li a:hover { color:#ff3b2f}
+.filter_button:hover {color:#ff3b2f; text-decoration:none;}
+.filter_current { color:#ff3b2f; }
+.filter_current:hover { color:#ff3b2f; text-decoration:none;}
+.oi_load_more:hover { background:#ff3b2f;}
+.list-star li:before {color:#ff3b2f}
+.wpcf7-submit:hover { background:#ff3b2f; }
+.wpcf7-validation-errors, .wpcf7-mail-sent-ok { background:#ff3b2f;}
+.oi_news_title a:hover { color:#ff3b2f; }
+.oi_widget .current-menu-item a { color:#ff3b2f !important}
+.oi_widget ul:not(#cbox) li a:hover {  color:#ff3b2f;}
+.oi_widget ul:not(#cbox) li a:hover:before{	color:#ff3b2f;}
+.oi_widget .menu li li.current_page_item a { color:#ff3b2f !important}
+h3.oi_blog_post_title a:hover { color:#ff3b2f; }
+#wp-calendar a { color:#ff3b2f}
+#wp-calendar caption { color:#ff3b2f}
+.oi_tweet a:hover { color:#ff3b2f;}
+.oi_tweet_time > a.twitter_time { color:#ff3b2f; }
+.tagcloud a:hover { color:#ff3b2f; }
+.fn a, .oi_commente_holder h4 a { color:#ff3b2f}
+.oi_ticket_commentlist .comment-author  .fn{ color:#ff3b2f;}
+.oi_ticket_commentlist .comment-body .reply .comment-reply-link { color:#ff3b2f; }
+.oi_ticket_commentlist > li > .comment-body .reply .comment-reply-link { color:#ff3b2f;}
+.oi_menu_content_holder > ul.header_menu > li.current_page_item  > a {background:#ff3b2f !important; color:#ffffff !important;}
+
+.oi_menu_content_holder > ul.header_menu > li.current-menu-parent > a {background:#ff3b2f !important; color:#ffffff !important;}
+
+.oi_menu_content_holder > ul > li > a { 
+	font-style:  !important;
+    font-family: Open Sans !important;
+    font-size: 13px !important;
+    line-height: 22px !important;
+}
+
+
+.oi_blog_post_title_inner h3:before  { display:inline-block; content:'//'; color:#ff3b2f; margin-right:5px;}
+.io_widget_title:before  { display:inline-block; content:'//'; color:#ff3b2f; margin-right:5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

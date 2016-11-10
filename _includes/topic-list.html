@@ -1,0 +1,11 @@
+<ul>
+	{% for topic in site.pages %}
+		{% if topic.type == include.type %}
+	<li>
+		{{topic.title}}
+	</li>
+	<p>{{topic.excerpt}} <a href="{{site.baseurl}}{{topic.url}}">READ MORE</a></p>
+	<img src="{{site.baseurl}}/images/{{topic.image}}">
+		{% endif %}
+	{% endfor%}
+</ul>

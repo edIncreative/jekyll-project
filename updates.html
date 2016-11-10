@@ -1,0 +1,30 @@
+---
+layout: news
+---
+<div class="container">
+	<h1>News/Updates</h1>
+
+	<h2>New Category</h2>
+	<ul>
+	{% for news in site.categories.news limit:1 %}
+		<li> 
+			<a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
+			<p>{{news.meta}}</p>
+			<p>{{news.author}}</p>
+		</li>
+    {% endfor %}		
+	</ul>
+
+	<h2>Updates Category</h2>
+	<ul>
+	{% for news in site.categories.updates %}
+		<li> 
+			<a href="">{{news.title}}</a>
+			<p>{{news.meta}}</p>
+			<p>{{news.author}}</p>
+		</li>
+    {% endfor %}		
+	</ul>
+
+</div>
+

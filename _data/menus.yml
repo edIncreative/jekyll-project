@@ -1,0 +1,22 @@
+- title: "HOME"
+  href: "/index.html"
+  pagename: "index.html"
+  
+- title: "BLOG"
+  href: "/blog/"
+  pagename: "blog"
+
+- title: "ABOUT"
+  href: "/about/"
+  pagename: "about"
+
+- title: "UPDATES"
+  href: "/updates/"
+  pagename: "updates"
+  sub:
+    - title: "Updated News"
+      href: "/updates.html"
+
+- title: "NEWS"
+  href: "/news.html"
+  pagename: "news"

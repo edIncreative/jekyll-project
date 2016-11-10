@@ -1,0 +1,202 @@
+---
+layout: about
+---
+     <div class="block_ff3">
+            <div class="oi_break container">
+                <span class="text_fff">
+                <p>
+                </p>
+                <h4 class="center">Powerful WP Theme designed in a clean and minimalistic style. This theme is very flexible, easy for customizing and well documented, approaches for personal and professional use.</h4>
+                <p>
+                </p>
+                </span>
+            </div>
+        </div>
+        
+       <div class="main_content_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row row-fluid">
+                            <div class="col-sm-6">
+                                <div id="port_slider" class="flexslider oi_vc_gal">
+                                    <ul class="slides">
+                                        <li><img src="{{site.url}}/images/corazon2.jpg" draggable="false"></li>
+                                        <li><img src="{{site.url}}/images/corazon3.jpg" draggable="false"></li>
+                                        <li><img src="{{site.url}}/images/corazon4.jpg" draggable="false"></li>
+                                        <li><img src="{{site.url}}/images/corazon5.jpg" draggable="false"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <h1><span class="colored">Welcomes</span> to our company</h1>
+                                <div class="oi_boxed_text">
+                                    <p>
+                                        <em>Aenean at massa iaculis, malesuada dolor eget, ultricies velit. Sed in tempor sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan id velit sit amet egestas. Sed eu venenatis nisl, ornare <span class="colored">porttitor</span> metus.</em>
+                                    </p>
+                                </div>
+                                <hr>
+                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingOne">
+                                      <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                          IT IS A LONG ESTABLISHED FACT THAT
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                      <div class="panel-body">
+                                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingTwo">
+                                      <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                          MANY DESKTOP PUBLISHING PACKAGES
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                      <div class="panel-body">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="headingThree">
+                                      <h4 class="panel-title">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                          IT IS A LONG ESTABLISHED FACT THAT
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                      <div class="panel-body">
+                                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English.
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="row row-fluid">
+                            <div class="col-sm-12">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row row-fluid onepage_team mb35">
+                            <div class="col-sm-12">
+                                <h1 class="oi_legend">Our <span class="colored">Team</span></h1>
+                                <div class="oi_boxed_text">
+                                    <p class="text-center">
+                                        <em>Aenean at massa iaculis, malesuada dolor eget, ultricies velit. Sed in tempor sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan id velit sit amet egestas. Sed eu venenatis nisl, ornare <span class="colored">porttitor</span> metus.</em>
+                                    </p>
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="row row-fluid mb35">
+                            {% for member in site.data.member %}
+                                   
+                            
+                            <div class="col-sm-3 col-sm-12">
+                                <div class="vc_team_member_holder">
+                                    <div class="vc_team_member_image_holder">
+                                        <div class="inner_img_holder">
+                                            <img src="{{site.url}}/images/{{ member.image }}" class="attachment-full vc_team_member_image" alt="tm4">
+                                        </div>
+                                        <div class="oi_mask_holder">
+                                            <div class="oi_mask">
+                                                <h5><span>Let's talk</span></h5>
+                                                <div class="oi_icons">
+                                                    <a class="oi_fb" target="_blank" href="#"></a>
+                                                    <a class="oi_tw" target="_blank" href="#"></a>
+                                                    <a target="_blank" class="oi_gplus" href="#"></a>
+                                                    <a class="oi_mail" href="mailto:#"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="oi_cont_holder">
+                                        <h4>{{ member.name }}</h4>
+                                        <h6>{{ member.position }}</h6>
+                                        <div class="oi_team_cont">
+                                            <span class="text_3a3a3a">{{ member.description }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                          
+                          {% endfor %}
+                        </div>
+                        <div class="row row-fluid">
+                            <div class="col-sm-6">
+                                <div class="row row-fluid">
+                                    <div class="col-sm-6">
+                                        <ul class="list-unstyled list-star">
+                                            <li>Based on Bootstrap 3</li>
+                                            <li>Responsive Design</li>
+                                            <li>Visual Composer Included</li>
+                                            <li>Revolution Slider Included</li>
+                                            <li>Unlimited Colors / Skins</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <ul class="list-unstyled list-star">
+                                            <li>Eye-Catching CSS3 Animations</li>
+                                            <li>Extensive Documentation</li>
+                                            <li>Multiple Custom Widgets</li>
+                                            <li>Strong Built In SEO Base</li>
+                                            <li>Font Awesome Icon Integration</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                               <h3>Company <span class="colored">Skills</span></h3>
+                               <div class="progress">
+                                  <div class="progress-bar progress-bar-grey progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                                    <span>Development</span>
+                                  </div>
+                                </div>  
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-grey progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                    <span>Design</span>
+                                  </div>
+                                </div>  
+                                <div class="progress">
+                                  <div class="progress-bar progress-bar-grey progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+                                    <span>Marketing</span>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-fluid">
+                            <div class="col-sm-12">
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row row-fluid onepage_team mb35">
+                            <div class="col-sm-12">
+                                <h1 class="oi_legend">Our <span class="colored">Clients</span></h1>
+                                <div class="oi_boxed_text">
+                                    <p class="text-center">
+                                        <em>Aenean at massa iaculis, malesuada dolor eget, ultricies velit. Sed in tempor sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan id velit sit amet egestas. Sed eu venenatis nisl, ornare <span class="colored">porttitor</span> metus.</em>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-fluid">
+                          {% for client in site.data.ourclient %}
+                            <div class="col-sm-2">
+                                 <img src="{{site.url}}/images/{{ client.image }}" class=" vc_box_border_grey attachment-full" alt="logo1">
+                            </div>
+                           {% endfor %} 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+

@@ -1,0 +1,19 @@
+- name: CLARK MAMBA
+  position: CO-FOUNDER & TECHNICAL DIRECTOR
+  description: There are many variations of passages of Lorem Ipsum available
+  image: tm7.jpg
+
+- name: LIZA SIMPSON
+  position: MANAGER
+  description: There are many variations of passages of Lorem Ipsum available
+  image: tm1.jpg
+
+- name: ALEX FREEMAN
+  position: INTERACTIVE DESIGNER
+  description: There are many variations of passages of Lorem Ipsum available
+  image: tm7.jpg
+
+- name: KATE SALEMA
+  position: VISUAL DESIGNER
+  description: There are many variations of passages of Lorem Ipsum available
+  image: tm1.jpg    

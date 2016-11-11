@@ -166,7 +166,7 @@
                             <ul>
                                  {% for categories in site.data.categories %}
 
-                                         <li><a href="{{ categories.href }}"> {{ categories.title }}</a></li>
+                                         <li><a href="{{site.baseurl}}{{categories.href}}"> {{ categories.title }}</a></li>
 
                                  {% endfor %}   
 

@@ -17,6 +17,9 @@
     - title: "Updated News"
       href: "/updates.html"
 
+    - title: "Testing"
+      href: "/test.html"  
+
 - title: "NEWS"
   href: "/news.html"
   pagename: "news"

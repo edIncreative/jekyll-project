@@ -1,120 +1,10 @@
----
-layout: default
----
-<div class="tag_line mb40">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12 oi_blog_post_title_inner">
-                        <h3>Blog</h3>
-                    </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12 text-right oi_breadcrumbs">
-                        <div class="breadcrumbs">
-                            <a class="colored" href="{{site.url}}/index.html">Home</a>
-                            &nbsp;&nbsp;›&nbsp;&nbsp;<span><a href="{{site.url}}/blog/" class="colored">Blog</a></span>
-                            &nbsp;&nbsp;›&nbsp;&nbsp;<span class="current">{{page.title}}</span> 
-                    </div><!-- .breadcrumbs --> 
-                    </div>
-                </div>
-            </div>                  
-</div>
-  <div class="container">
-            <div class="row">
-                <!--contetn-->
-                <div class="col-md-8 col-sm-8">
-                    <div class="post type-post status-publish format-standard hentry category-uncategorized row oi_post">
-                        <div class="col-md-12">
-                            <div class="blog_item">
-                                <div class="row">
-                                    <div class="col-md-12 col-sm-12">
-                                        <div class="oi_blog_item_holder">
-                                            <div class="oi_blog_head ">
-                                                <h3 class="oi_blog_post_title_inner">{{page.title}}</h3>
-                                                <div class="oi_blog_meta">
-                                                     07 June 2014,&nbsp;&nbsp; By <a href="#" title="Posts by OrangeIdea" rel="author">OrangeIdea</a>,&nbsp;&nbsp; <a href="hello-world.html#comments">1 Comments</a>
-                                                </div>
-                                            </div>
-                                            <div class="oi_blog_item_content">
-                                                <div class="oi_blog_item_main_content">
-                                                    <p>
-                                                       {{content}}
-                                                    </p>
-                                                </div>
-                                                <br>
-                                                <div class="oi_share">
-                                                    <div class="oi_post_share_icons">
-                                                        <div class="oi_soc_icons">
-                                                            <a href="https://twitter.com/share?url=http://themes.foxsash.com/newera20/hello-world.html" title="Twitter" target="_blank">
-                                                            <div class="menu_icon_t">
-                                                            </div>
-                                                            </a>
-                                                            <a href="http://www.facebook.com/sharer.php?u=http://themes.foxsash.com/newera20/hello-world.html" title="Facebook" target="_blank">
-                                                            <div class="menu_icon_facebook">
-                                                            </div>
-                                                            </a>
-                                                            <a href="https://plus.google.com/share?url=http://themes.foxsash.com/newera20/hello-world.html" title="Google+" target="_blank">
-                                                            <div class="menu_icon_google">
-                                                            </div>
-                                                            </a>
-                                                            <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=http://themes.foxsash.com/newera20/hello-world.html" title="LinkedIn" target="_blank">
-                                                            <div class="menu_icon_in">
-                                                            </div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="oi_commente_holder" id="comments">
-                                <div class="comments_div">
-                                    <h3 class="oi_comments_title">1 Comment:</h3>
-                                </div>
-                                <ol class="oi_ticket_commentlist">
-                                    <li class="comment even thread-even depth-1" id="comment-3">
-                                    <div id="div-comment-3" class="comment-body">
-                                        <div class="comment-author vcard">
-                                            <img alt="" src="http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=32" class="avatar img-circle oi_avatar avatar-32 photo avatar-default img-responsive" height="32" width="32"><cite class="fn"><a href="https://wordpress.org/" rel="external nofollow" class="url">Mr WordPress</a></cite><span class="says">says:</span>
-                                        </div>
-                                        <div class="comment-meta commentmetadata">
-                                            <a href="#">
-                                            June 7, 2014 at 10:20 am</a>
-                                        </div>
-                                        <p>
-                                            Hi, this is a comment.<br>
-                                             To delete a comment, just log in and view the post's comments. There you will have the option to edit or delete them.
-                                        </p>
-                                        <div class="reply">
-                                            <a class="comment-reply-link" href="#">Reply</a>
-                                        </div>
-                                    </div>
-                                    </li>
-                                    <!-- #comment-## -->
-                                </ol>
-                                <h4>Leave a Reply</h4>
-                                <form class="form" action="#" method="post" id="contact-form">
-                                    <input type="text" class="input-text" placeholder="Name" name="author" value=""><br>
-                                    <br>
-                                    <input class="input-text" type="text" placeholder="E-mail" name="email" value=""><br>
-                                    <br>
-                                    <textarea type="text" placeholder="Message" id="comment" name="comment" class="input-text" rows="5"></textarea><br>
-                                    <br>
-                                    <button name="submit" id="submit_form" type="submit" class="btn oi_submit">Replay</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--/contetn-->   
-                <!--Sidebar-->
-                <div class="col-md-4 col-sm-4 oi_right_sidebar">
+ <div class="col-md-4 col-sm-4 oi_right_sidebar">
                     <div class="myrs">
                         <div class="oi_widget">
                             <h6 class="io_widget_title">Calendar</h6>
                             <div id="calendar_wrap">
                                 <table id="wp-calendar">
-                                <caption>March 2015</caption>
+                                <caption>{{ "now" | date: "%B %Y" }}</caption>
                                 <thead>
                                 <tr>
                                     <th scope="col" title="Monday">
@@ -209,7 +99,7 @@ layout: default
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td id="today">
+                                    <td id="today" style="background: #ff3b2f;color:#fff;">
                                         16
                                     </td>
                                     <td>
@@ -271,16 +161,30 @@ layout: default
                         </div>
                         <div class="oi_widget">
                             <h6 class="io_widget_title">Categories</h6>
+                          
+
                             <ul>
-                                <li><a href="#">All Posts</a></li>
-                                <li><a href="#">Lessons</a></li>
-                                <li><a href="#">Uncategorized</a></li>
-                                <li><a href="#">Web Design</a></li>
+                                 {% for categories in site.data.categories %}
+
+                                         <li><a href="{{ categories.href }}"> {{ categories.title }}</a></li>
+
+                                 {% endfor %}   
+
+                             
+                           
+                            
                             </ul>
+                           
                         </div>
                         <div class="oi_widget">
                             <h6 class="io_widget_title">Flickr</h6>
-                            <div id="cbox"></div>
+                            <div id="">
+                                <div class="oi_flickr_item">
+                                    <a rel="prettyPhoto[flickr]" href="http://farm4.staticflickr.com/3940/15647274066_2ee48c3fe9_b.jpg" title="Halloween 2014 at Envato in Melbourne">
+                                        <img src="http://farm4.staticflickr.com/3940/15647274066_2ee48c3fe9_s.jpg">
+                                    </a>
+                                </div>
+                            </div>
                             <div class="clearfix"></div>
                         </div>
                         <div class="oi_widget">
@@ -312,6 +216,3 @@ layout: default
                         </div>
                     </div>
                 </div>
-                <!--/Sidebar-->
-            </div>
-        </div>       

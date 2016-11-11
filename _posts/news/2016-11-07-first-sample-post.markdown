@@ -1,9 +1,7 @@
 ---
 layout: article
 title:  "Gallery post format"
-date:   2016-11-07 12:01:15 +0800
-day-month: 07 November
-year: 2017
+date:   2016-11-07 06:01:15 +0800
 categories: news
 meta: meta1
 author: Author1

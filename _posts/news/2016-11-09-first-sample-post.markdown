@@ -1,9 +1,7 @@
 ---
 layout: article
 title:  "NEW POST"
-date:   2016-11-07 12:01:15 +0800
-day-month: 09 November
-year: 2017
+date:   2016-11-09 10:01:15 +0800
 categories: news
 meta: meta2
 author: Author2

@@ -11,6 +11,7 @@ layout: news
 			<a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a>
 			<p>{{news.meta}}</p>
 			<p>{{news.author}}</p>
+			<p>{{ news.date | date: "%Y-%m-%d %H:%M" }}</p>
 		</li>
     {% endfor %}		
 	</ul>

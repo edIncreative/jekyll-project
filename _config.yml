@@ -1,3 +1,33 @@
+#
+#
+# Website Details
+title: My Sample Blog 
+address: 123456 Street Name, Los Angeles
+phone: (1800) 765-4321
+fax: (1800) 765-4321
+website: http://yoursitename.com
+email: info@yoursitename.com
+importantinfo: > # this means to ignore newlines until "baseurl:"
+  NewEra is designed to help people of all skill levels designer or developer,
+  huge nerd or early beginner. Use it as a complete kit or use to start something more complex.
+
+
+#
+#
+# 
+# Build settings
 markdown: kramdown
 baseurl: /jekyll-project
 exclude: ['README.md']
+future: true
+gems:
+  - jekyll-paginate
+
+#
+#
+#
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="container">
+<h1>This is a Test View</h1>
+
+
+	{% assign my_variable = 'Hellow World' %} 
+	{% assign seek_variable = 'Hellow World' %} 
+	
+
+	{% if my_variable == seek_variable %}
+	  The String Match!
+	{% else %}
+	  The String Not Match!
+	{% endif %}
+
+	{% capture my_variable %}I am being captured.{% endcapture %}
+	{{ my_variable }}
+
+	<br>
+	{% increment my_counter %}
+	{% increment my_counter %}
+	{% increment my_counter %}
+
+	This page was last updated at {{ "now" | date: "%Y-%m-%d %H:%M" }}.
+
+
+</div>

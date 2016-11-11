@@ -1,9 +1,7 @@
 ---
 layout: article
 title:  "ANOTHER POST JUST FOR DEMO"
-date:   2016-11-07 12:01:15 +0800
-day-month: 07 November
-year: 2017
+date:   2016-11-07 09:01:15 +0800
 categories: news
 meta: meta2
 author: Author2

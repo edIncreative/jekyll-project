@@ -1,12 +1,28 @@
 ---
-layout: blog
+layout: default
 ---  
+<div class="tag_line mb40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 oi_blog_post_title_inner">
+                        <h3>Blog</h3>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-right oi_breadcrumbs">
+                        <div class="breadcrumbs">
+                             <a class="colored" href="{{site.url}}/index.html">Home</a>
+                            &nbsp;&nbsp;›&nbsp;&nbsp;<span><a href="{{site.url}}/blog/" class="colored">Blog</a></span>
+                            &nbsp;&nbsp;›&nbsp;&nbsp;<span class="current">Updates</span> 
+                    </div><!-- .breadcrumbs --> 
+                    </div>
+                </div>
+            </div>                  
+</div>
+
 <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-8">
-                   
+                <div class="col-md-8 col-sm-8">  
 
-                    {% for post in paginator.posts %}
+                   {% for updates in site.categories.updates %}
                     <div class=" post type-post status-publish format-image has-post-thumbnail hentry category-all-posts category-lessons category-web-design row oi_post">
                         <div class="col-md-12">
                             <div class="blog_item">
@@ -14,10 +30,10 @@ layout: blog
                                     <div class="col-md-2">
                                         <div class="oi_full_blog_post_date">
                                             <div class="oi_date_d colored">
-                                                {{ post.date | date: "%d %B" }}
+                                                {{ updates.date | date: "%d %B" }}
                                             </div>
                                             <div class="oi_date_y">
-                                                 {{ post.date | date: "%Y" }}
+                                                 {{ updates.date | date: "%Y" }}
                                             </div>
                                         </div>
                                     </div>
@@ -25,28 +41,28 @@ layout: blog
                                         <div class="oi_blog_item_holder">
                                             <div class="oi_blog_full_content_holder">
                                                 <div class="oi_blog_head">
-                                                    <h3 class="oi_blog_post_title"><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></h3>
+                                                    <h3 class="oi_blog_post_title"><a href="{{site.baseurl}}{{updates.url}}">{{updates.title}}</a></h3>
                                                     <div class="oi_blog_meta">
-                                                         By <a href="#" title="Posts by OrangeIdea" rel="author">{{post.author}}</a>,&nbsp;&nbsp; {{post.categories}},&nbsp;&nbsp; <a href="another-post-just-for-demo.html#comments">0 Comments</a>
+                                                         By <a href="#" title="Posts by OrangeIdea" rel="author">{{updates.author}}</a>,&nbsp;&nbsp; {{updates.categories}},&nbsp;&nbsp; <a href="another-post-just-for-demo.html#comments">0 Comments</a>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="oi_post_format_content">
                                                 <div class="oi_with_mask_no_url">
-                                                    <a rel="prettyPhoto" class="oi_pretty_image_link" title="{{post.title}}" href="images/8-1024x576.gif">
+                                                    <a rel="prettyPhoto" class="oi_pretty_image_link" title="{{updates.title}}" href="images/8-1024x576.gif">
                                                     <div class="oi_pretty_image_link_plus">
                                                     </div>
                                                     </a>
-                                                    <img src="{{site.baseurl}}/images/{{post.images}}" alt="{{post.title}}">
+                                                    <img src="{{site.baseurl}}/images/{{updates.images}}" alt="{{updates.title}}">
                                                 </div>
                                             </div>
                                             <div class="oi_blog_item_content">
                                                 <div class="oi_blog_item_main_content">
                                                     <p>
-                                                       {{post.excerpt}}
+                                                       {{updates.excerpt}}
                                                     </p>
                                                     <div class="oi_read_more">
-                                                        <a class="oi_readmore_btn colored" href="{{site.baseurl}}{{post.url}}"> Read More</a>
+                                                        <a class="oi_readmore_btn colored" href="{{site.baseurl}}{{updates.url}}"> Read More</a>
                                                     </div>
                                                     <p>
                                                     </p>
@@ -58,7 +74,10 @@ layout: blog
                             </div>
                         </div>
                     </div>
-                    {% endfor %}
+                    {% endfor %}  
+
+
+
 
                     <hr class="notopmargin">
                     <div class="pride_pg">
